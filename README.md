@@ -1,1 +1,1 @@
-This projectis acloneof amazon.com,developed as a practice project using HTML ana CSS.It contains the basic layout of Amazonhomepage,including navigationbar, search bar, productsections and footer.
+<p>This project is a clone of amazon.com, developed as a practice project using HTML and CSS.It contains the basic layout of Amazon homepage,including navigation bar, search bar, product sections and footer.</p>

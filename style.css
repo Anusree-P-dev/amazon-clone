@@ -14,7 +14,7 @@
 }
 
 .logo {
-    background-image: url("/images/amazon_logo.png");
+    background-image: url("./images/amazon_logo.png");
     background-size: cover;
     height: 3rem;
     width: 6rem;
@@ -60,8 +60,8 @@
     background-color: #f3f3f3;
     width: 2.8rem;
     text-align: center;
-    border-top-left-radius: 0.25;
-    border-bottom-left-radius: 0.25;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
     border: none;
 }
 
@@ -78,13 +78,13 @@
     align-items: center;
     font-size: 1.5rem;
     background-color: #fedb68;
-    border-top-right-radius: 0.25;
-    border-bottom-right-radius: 0.25;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
     color: #0f1111;
 }
 
 .nav-search:hover {
-    outline: 2px solid orange;
+    border: 2px solid orange;
 }
 
 /*box-4&5*/
@@ -130,6 +130,10 @@ span {
     margin-left: 15px;
 }
 
+.panel-deals{
+    margin-left: 5px;
+}
+
 /* hero section */
 
 .hero-section {
@@ -168,18 +172,19 @@ span {
 }
 
 .box {
-    height: 25rem;
-    width: 30%;
+    height: 400px;
+    width: 40vh;
     background-color: white;
     padding: 20px 0px 10px;
     margin: 15px;
 }
 
 .box-img {
-    height: 15rem;
+    height: 300px;
     margin-top: 15px;
     margin-bottom: 20px;
-    background-size: cover;
+    background-size:cover;
+    
 }
 
 .box-content {
